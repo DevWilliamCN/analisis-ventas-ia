@@ -1,7 +1,8 @@
-
 # 📊 Análisis de Ventas con Inteligencia Artificial
 
 Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https://streamlit.io/) que permite cargar archivos CSV o PDF con información de ventas, procesarlos, generar visualizaciones dinámicas y realizar predicciones de ingresos utilizando un modelo de Inteligencia Artificial.
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -11,6 +12,30 @@ Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https:
 - 🤖 **Modelo IA**: Predicción de ingresos futuros usando regresión lineal
 - 🧾 **Interfaz protegida**: Inicio de sesión con diferentes roles (Admin, Cliente Invitado, etc.)
 - 💻 **Diseño personalizado**: Interfaz oscura, moderna y responsive
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Python 3.12**
+- **Streamlit** (interfaz gráfica web)
+- **Pandas** (procesamiento de datos)
+- **NumPy** (cálculos numéricos)
+- **Matplotlib** (gráficos y visualización)
+- **scikit-learn** (modelo de regresión lineal)
+- **PyMuPDF (fitz)** (extracción de texto y tablas desde PDF)
+- **bcrypt** (hashing seguro de contraseñas)
+
+---
+
+## 🔐 Seguridad implementada
+
+- 🔐 **Autenticación de usuarios con roles** mediante `streamlit-authenticator`
+- 🧂 **Contraseñas encriptadas** con algoritmo **bcrypt**
+- 🔒 **Sesiones protegidas con cookies** (`streamlit_authenticator`)
+- 🔍 **Validación y limpieza de archivos cargados** para evitar errores o datos corruptos
+
+---
 
 ## 📂 Estructura de archivos
 
@@ -25,6 +50,8 @@ Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https:
 ├── requirements.txt      # Dependencias necesarias
 ```
 
+---
+
 ## 🔐 Usuarios de prueba
 
 | Usuario   | Contraseña       | Rol             |
@@ -33,9 +60,13 @@ Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https:
 
 > Todas las contraseñas están encriptadas con bcrypt.
 
-## 🌐 Despliegue (opcional)
+---
 
-Puedes desplegar este proyecto en [Streamlit Cloud](https://streamlit.io/cloud) para que funcione en la web de forma gratuita.
+## 🌐 Despliegue
+
+Puedes desplegar este proyecto fácilmente en [Streamlit Cloud](https://streamlit.io/cloud) para hacerlo accesible públicamente desde un navegador web. Solo necesitas una cuenta de GitHub y conectar el repositorio.
+
+---
 
 ## 👨‍💻 Autor
 
@@ -45,4 +76,4 @@ Puedes desplegar este proyecto en [Streamlit Cloud](https://streamlit.io/cloud) 
 
 ---
 
-> Si te gustó este proyecto, no dudes en darle ⭐ en GitHub.
+> Si te gustó este proyecto, no dudes en darle ⭐ en GitHub y compartirlo con tus colegas.
