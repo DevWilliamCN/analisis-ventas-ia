@@ -54,9 +54,9 @@ Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https:
 
 ## 🔐 Usuarios de prueba
 
-| Usuario   | Contraseña       | Rol             |
+| Usuario   | Contraseña       | Rol              |
 |-----------|------------------|------------------|
-| cliente   | `cliente123`     | Cliente Invitado |
+| admin     |  `adminpass`     | Cliente Invitado |
 
 > Todas las contraseñas están encriptadas con bcrypt.
 
