@@ -1,0 +1,8 @@
+streamlit
+streamlit-authenticator
+PyJWT==2.6.0
+pandas
+matplotlib
+numpy
+scikit-learn
+pdfplumber
