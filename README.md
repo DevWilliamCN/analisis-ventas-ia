@@ -29,8 +29,6 @@ Este proyecto es una aplicación interactiva desarrollada con [Streamlit](https:
 
 | Usuario   | Contraseña       | Rol             |
 |-----------|------------------|------------------|
-| william   | `william123`     | William Cubero   |
-| admin     | `admin123`       | Administrador    |
 | cliente   | `cliente123`     | Cliente Invitado |
 
 > Todas las contraseñas están encriptadas con bcrypt.
